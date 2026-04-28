@@ -1,14 +1,14 @@
-legs = int(input("Enter the number of legs: "))
-heads = int(input("Enter the number of heads: "))
-flag = False
+legs=int(input("Enter the number of legs: "))
+heads=int(input("Enter the number of heads: "))
+flag=False
 for cows in range(heads + 1):
-    chickens = heads - cows
-    cal_legs = cows * 4 + chickens * 2
-    if cal_legs == legs:
-        flag = True
+    chickens=heads - cows
+    cal_legs=cows * 4 + chickens * 2
+    if cal_legs==legs:
+        flag=True
         break
 if flag:
-    print("Number of chickens:", chickens)
-    print("Number of cows:", cows)
+    print("Number of chickens:",chickens)
+    print("Number of cows:",cows)
 else:
     print("No solution")
