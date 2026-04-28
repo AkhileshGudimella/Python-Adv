@@ -1,0 +1,6 @@
+from datetime import datetime
+a = date(2005, 2, 2)
+b = date(2026, 4, 28)
+time_difference = b - a
+total_hours = time_difference.days * 24
+print("Number of hours lived:", total_hours)
